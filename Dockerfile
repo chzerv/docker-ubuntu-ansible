@@ -3,7 +3,7 @@ MAINTAINER "Xristos Zervakis"
 
 # Install Ansible via pip so we get the latest version.
 # "cryptography" is also a required dependency.
-ENV pip_packages "ansible ansible-lint yamllint molecule molecule-containers cryptography"
+ENV ansible_packages "ansible ansible-lint yamllint molecule molecule-containers cryptography"
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
@@ -23,7 +23,7 @@ RUN apt-get update \
     rm -f /lib/systemd/system/systemd-update-utmp* \
     rm -f /lib/systemd/system/multi-user.target.wants/getty.target
 
-RUN pip3 install $pip_packages
+RUN pip3 install $ansible_packages
 
 RUN mkdir -p /etc/ansible
 RUN echo -e '[local]\nlocalhost ansible_connection=local' > /etc/ansible/hosts
