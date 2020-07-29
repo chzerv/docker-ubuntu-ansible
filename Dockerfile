@@ -20,14 +20,14 @@ RUN apt-get update \
     rm -f /lib/systemd/system/basic.target.wants/* ; \
     rm -f /lib/systemd/system/anaconda.target.wants/* ; \
     rm -f /lib/systemd/system/plymouth* ; \
-    rm -f /lib/systemd/system/systemd-update-utmp*
+    rm -f /lib/systemd/system/systemd-update-utmp* \
+    rm -f /lib/systemd/system/multi-user.target.wants/getty.target
 
 RUN pip3 install $pip_packages
 
 RUN mkdir -p /etc/ansible
 RUN echo -e '[local]\nlocalhost ansible_connection=local' > /etc/ansible/hosts
 
-RUN rm -f /lib/systemd/system/multi-user.target.wants/getty.target
 
 VOLUME [ "/sys/fs/cgroup" ]
 CMD ["/lib/systemd/systemd"]
