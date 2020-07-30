@@ -1,5 +1,7 @@
 # Container image: Ubuntu Ansible
 
+[![Build Status](https://travis-ci.com/chzerv/docker-ubuntu-ansible.svg?branch=master)](https://travis-ci.com/chzerv/docker-ubuntu-ansible)
+
 This Dockerfile builds a Ubuntu-based container with Ansible and other Ansible testing tools pre-intalled.
 
 # Branches/Tags
