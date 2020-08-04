@@ -1,5 +1,5 @@
 FROM ubuntu:bionic
-MAINTAINER "Xristos Zervakis"
+LABEL maintainer "Xristos Zervakis"
 
 # Install Ansible via pip so we get the latest version.
 # "cryptography" is also a required dependency.
