@@ -1,6 +1,7 @@
 # Container image: Ubuntu Ansible
 
 [![Build Status](https://travis-ci.com/chzerv/docker-ubuntu-ansible.svg?branch=bionic)](https://travis-ci.com/chzerv/docker-ubuntu-ansible)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/chzerv/docker-ubuntu-ansible)
 
 This Dockerfile builds a Ubuntu-based container with Ansible and other Ansible testing tools pre-intalled.
 
