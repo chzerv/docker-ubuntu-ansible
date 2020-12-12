@@ -9,8 +9,9 @@ This Dockerfile builds a Ubuntu-based container with Ansible and other Ansible t
 
 | Branch | Distribution version | Image tag |
 | :----: | :------------------: | :-------: |
-| master |    20.04 (focal)     |  latest   |
-| bionic |    18.04 (bionic)    |  bionic   |
+| master | 20.10 (groovy)       | latest    |
+| groovy | 20.04 (focal)        | focal     |
+| bionic | 18.04 (bionic)       | bionic    |
 
 # How to build locally
 
