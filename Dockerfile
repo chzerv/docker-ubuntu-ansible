@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:20.10
 LABEL maintainer "Xristos Zervakis"
 
 # Install Ansible via pip so we get the latest version.
