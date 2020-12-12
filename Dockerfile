@@ -3,7 +3,7 @@ LABEL maintainer "Xristos Zervakis"
 
 # Install Ansible via pip so we get the latest version.
 # "cryptography" is also a required dependency.
-ENV ansible_packages "ansible ansible-lint yamllint molecule molecule-containers cryptography"
+ENV ansible_packages "ansible ansible-lint yamllint molecule molecule-docker molecule-podman cryptography"
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
