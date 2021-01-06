@@ -8,7 +8,7 @@ testing tools pre-installed.
 
 # Branches/Tags
 
-Each branch of this repository represents a Fedora version, with the `master` branch representing the
+Each branch of this repository represents an Ubuntu version, with the `master` branch representing the
 latest version. Pull the branch (version) you are interested in.
 
 | Branch | Distribution version | Image tag           |
