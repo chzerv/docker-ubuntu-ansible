@@ -1,5 +1,10 @@
 # Ubuntu 20.10 (Groovy Gorilla) Image for Ansible Testing
 
+>**NOTE**: This image is now  **DEPRECATED**: Use:
+>+ [ubuntu1804-systemd-ansible](https://github.com/chzerv/ubuntu1804-systemd-ansible),
+>+ [ubuntu2004-systemd-ansible](https://github.com/chzerv/ubuntu2004-systemd-ansible),
+>+ [ubuntu2010-systemd-ansible](https://github.com/chzerv/ubuntu2010-systemd-ansible)
+
 ![Build](https://github.com/chzerv/docker-ubuntu-ansible/workflows/Build/badge.svg?branch=master)
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/chzerv/docker-ubuntu-ansible)
 
